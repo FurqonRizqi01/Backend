@@ -106,7 +106,7 @@ class StudentController extends Controller
 		} else {
 			$response = [
 				'message' => 'Data not found'
-			];
+			]; 
 
 			return response()->json($response, 404);
 		}
@@ -129,7 +129,7 @@ class StudentController extends Controller
 		} else {
 			$response = [
 				'message' => 'Data not found'
-			];
+			]; 
 
 			return response()->json($response, 404);
 		}
